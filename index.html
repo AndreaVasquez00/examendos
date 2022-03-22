@@ -1,0 +1,344 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cinefilos</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+		<div class="view view-main view-init">
+
+			<!-- Menú Lateral -->
+			<section class="panel panel-left panel-cover">
+			
+				<div class="panel-info">
+					<span class="material-icons">account_circle</span>
+					<h4>Mi Perfil</h4>
+				</div>
+				
+				<div class="list">
+				  <ul>
+					<li>
+					  <a href="/home/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">home</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Inicio</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/promociones/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">local_offer</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Promociones</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/categorias/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">shopping_bag</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Categorias</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/mis-peliculas/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">queue_play_next</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Mis películas</div>
+						</div>
+					  </a>
+					</li>
+					  <li>
+					  <a href="/perfil/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">streetview</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Perfil</div>
+						</div>
+					  </a>
+					</li>
+				  
+				<li>
+					  <a href="/salir/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">logout</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Salir</div>
+						</div>
+					  </a>
+					</li>
+					  </ul>
+				</div>
+			</section>
+			
+			
+			<section data-name="home" class="page">
+
+				<!-- Top Navbar -->
+				<nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="title">Cinéfilos</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span>
+						</a>
+					</div>
+				</div>
+				</nav>
+
+				
+
+				<section class="page-content">
+
+					<article id="promo" class="card">
+						<div class="card-content card-content-padding">
+							
+							
+						</div>
+					</article>
+					
+					<div class="row">
+						<article class="col">
+							<h4 class="block-title block-title-medium">En taquilla:</h4>
+						</article>
+					</div>
+					
+					<article id="brands" class="block">
+						
+						<div class="swiper-container swiper-init" data-slides-per-view="4">
+                            <div class="swiper-wrapper">
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/lionking.jpg" class="img-fluid" alt="lionking">
+											<p>Turning Red</p>
+						<ul> <li> <p>
+							Categoria: Comedia/Infantil 
+							Precio: $3.00
+							Calificacion: 8/10
+							</p>
+							</li>
+											</ul> 
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/encanto.jpg" class="img-fluid" alt="encanto">
+											<p>Encanto</p>
+						<ul> <li> <p>
+							Categoria: Comedia/Infantil 
+							Precio: $3.00
+							Calificacion: 9/10
+							</p>
+							</li>
+											</ul> 
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/red.jpg" class="img-fluid" alt="red">
+											<p>Turning Red</p>
+						<ul> <li> <p>
+							Categoria: Comedia/Infantil 
+							Precio: $3.00
+							Calificacion: 7/10
+							</p>
+							</li>
+											</ul> 
+											
+                                        </div>
+                                    </div>
+                                </article>
+								<article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/stitch.jpg" class="img-fluid" alt="stitch">
+											<p>Stitch</p>
+						<ul> <li> <p>
+							Categoria: Comedia/Infantil 
+							Precio: $3.00
+							Calificacion: 10/10
+							</p>
+							</li>
+											</ul> 
+                                        </div>
+                                    </div>
+                                </article>
+								
+                            </div>
+						</div>
+					</article>
+					
+					
+					<article class="block">
+						<a href="/mis-peliculas.html" class="button button-fill button-small">Mis películas:</a>
+					</article>
+					
+					<article class="block">
+						<img src="img/hercules.jpg" alt="pre-producción" class="img-fluid">
+						<p>Hercules</p>
+						<p>Hércules o Heracles, siendo una metátesis del nombre griego. Era hijo de Júpiter, el equivalente romano del dios griego Zeus, y la mortal Alcmena. Llevó a cabo doce grandes trabajos, llamados Los doce trabajos de Heracles y fue divinizado.</p>
+					</article>
+					
+					<article class="block">
+						<img src="img/el-libro-de-la-selva-movie_4zrr.jpg" alt="pre-producción" class="img-fluid">
+						<p>El Libro de la Selva </p>
+						<p>Después de ser rescatado por la pantera Bagheera en la selva, una manada de lobos cría al recién nacido Mowgli. La vida feliz y apacible de Mowgli junto a su familia adoptiva se rompe en mil pedazos cuando llega el peligroso tigre Shere Khan.</p>
+					</article>
+					
+					<hr>
+					
+				</section>
+				
+				
+				
+				
+					
+					
+				
+				
+			</section> <!-- /page-content-->
+			
+			<!-- Bottom Navbar -->
+            <nav class="toolbar toolbar-bottom">
+              <div class="toolbar-inner">
+                <a href="/home/" class="link">
+                  <span class="material-icons">home</span>					 
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">shopping_cart</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">person_outline</span>					  
+                </a>
+              </div>
+            </nav>
+			
+		</div><!-- /view-->
+	</div><!-- /app -->
+	
+	
+	
+<section class="login-screen modal-in" id="login">
+	<div class="view">
+      <section class="page">
+        <div class="page-content login-screen-content">
+          	<div class="login-screen-title">
+				
+				<h6>Para reservar una película</h6>
+			</div>
+          <form id="form-login">
+            <div class="list">
+              <ul>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Email</div>
+                    <div class="item-input-wrap">
+                      <input type="email" name="email" placeholder="Tu email" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Contraseña</div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="Contraseña" placeholder="Tu contraseña" required>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list block">
+              <ul>
+                <li><button type="submit" class="button button-fill" id="btnLogin">Entrar</button></li>
+              </ul>
+              <div class="block-footer">
+                <p>¿No tenés una cuenta? <a href="#" class="link login-screen-open" data-login-screen="#signup">Crea una cuenta</a></p>
+                <p><a class="link login-screen-close" href="#">o continua como invitado</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section> <!-- /page -->
+    </div>
+</section><!-- /login-screen -->
+
+	
+	
+<section class="login-screen" id="signup" style="z-index: 99999;">
+	<div class="view">
+      <section class="page">
+        <div class="page-content login-screen-content">
+          	<div class="login-screen-title">
+				Crear una cuenta
+			</div>
+          <form>
+            <div class="list">
+              <ul>
+				<li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Nombre</div>
+                    <div class="item-input-wrap">
+                      <input type="text" name="name" placeholder="Your name" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Email</div>
+                    <div class="item-input-wrap">
+                      <input type="email" name="email" placeholder="Your email" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Contraseña</div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="password" placeholder="Your password" required>
+                    </div>
+                  </div>
+                </li>
+				<li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Confirmar contraseña</div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="confpassword" placeholder="Your password" required>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list block">
+              <ul>
+                <li><button type="submit" class="button button-fill" id="btnSignUp">Entrar</button></li>
+              </ul>
+              <div class="block-footer">
+                <p><a class="link login-screen-close" href="#">Cancelar</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section> <!-- /page -->
+    </div>
+</section><!-- /login-screen -->
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
